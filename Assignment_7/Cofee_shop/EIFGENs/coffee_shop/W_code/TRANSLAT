@@ -1,0 +1,13 @@
+coffee_shop	COFFEESHOP	products	F861_6968	C1/co861.c
+coffee_shop	COFFEESHOP	make	F861_6969	C1/co861.c
+coffee_shop	COFFEESHOP	print_menu	F861_6970	C1/co861.c
+coffee_shop	COFFEESHOP	profit	F861_6971	C1/co861.c
+coffee_shop	PRODUCT	make	F862_6972	C1/pr862.c
+coffee_shop	PRODUCT	set_price_public	F862_6973	C1/pr862.c
+coffee_shop	PRODUCT	set_price_real	F862_6974	C1/pr862.c
+coffee_shop	PRODUCT	price_public	F862_6975	C1/pr862.c
+coffee_shop	PRODUCT	price_real	F862_6976	C1/pr862.c
+coffee_shop	CAKE	description	F863_6978	C1/ca863.c
+coffee_shop	CAPPUCCINO	description	F865_6979	C1/ca865.c
+coffee_shop	ESPRESSO	description	F866_6980	C1/es866.c
+coffee_shop	APPLICATION	make	F867_6981	C1/ap867.c
