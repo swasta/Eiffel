@@ -1,0 +1,609 @@
+temp	APPLICATION	make	F861_6968	C1/ap861.c
+temp	PERSON	make	F862_7377	C1/pe862.c
+temp	PERSON	name	F862_7378	C1/pe862.c
+temp	PERSON	coworkers	F862_7379	C1/pe862.c
+temp	PERSON	has_flu	F862_7380	C1/pe862.c
+temp	PERSON	add_coworker	F862_7381	C1/pe862.c
+temp	PERSON	set_flu	F862_7382	C1/pe862.c
+structures	V_ORDER [INTEGER_32]	less	F887_6975	C1/v_887.c
+structures	V_ORDER [INTEGER_32]	less_equal	F887_6976	C1/v_887.c
+structures	V_ORDER [INTEGER_32]	greater	F887_6977	C1/v_887.c
+structures	V_ORDER [INTEGER_32]	greater_equal	F887_6978	C1/v_887.c
+structures	V_INPUT_STREAM [INTEGER_32]	search	F884_6982	C1/v_884.c
+structures	V_INPUT_STREAM [INTEGER_32]	satisfy	F884_6983	C1/v_884.c
+structures	V_INPUT_STREAM [INTEGER_32]	box	F884_6984	C1/v_884.c
+structures	V_INPUT_STREAM [G#1]	search	F889_6982	C1/v_889.c
+structures	V_INPUT_STREAM [G#1]	satisfy	F889_6983	C1/v_889.c
+structures	V_INPUT_STREAM [G#1]	box	F889_6984	C1/v_889.c
+structures	V_DEFAULT [INTEGER_32]	default_value	F886_6985	C1/v_886.c
+structures	V_DEFAULT [INTEGER_32]	default_value_cache	F886_6986	C1/v_886.c
+structures	V_DEFAULT [INTEGER_32]	internal	F886_6987	C1/v_886.c
+structures	V_DEFAULT [G#1]	default_value	F909_6985	C2/v_909.c
+structures	V_DEFAULT [G#1]	default_value_cache	F909_6986	C2/v_909.c
+structures	V_DEFAULT [G#1]	internal	F909_6987	C2/v_909.c
+structures	V_OUTPUT_STREAM [INTEGER_32]	pipe	F883_6990	C1/v_883.c
+structures	V_OUTPUT_STREAM [INTEGER_32]	pipe_n	F883_6991	C1/v_883.c
+structures	V_OUTPUT_STREAM [G#1]	pipe	F907_6990	C2/v_907.c
+structures	V_OUTPUT_STREAM [G#1]	pipe_n	F907_6991	C2/v_907.c
+structures	V_STRING_OUTPUT	make	F863_6992	C1/v_863.c
+structures	V_STRING_OUTPUT	make_with_separator	F863_6993	C1/v_863.c
+structures	V_STRING_OUTPUT	destination	F863_6994	C1/v_863.c
+structures	V_STRING_OUTPUT	separator	F863_6995	C1/v_863.c
+structures	V_STRING_OUTPUT	default_separator	F863_6996	C1/v_863.c
+structures	V_STRING_OUTPUT	void_out	F863_6997	C1/v_863.c
+structures	V_STRING_OUTPUT	off	F863_6998	C1/v_863.c
+structures	V_STRING_OUTPUT	output	F863_6999	C1/v_863.c
+structures	V_EQUALITY [INTEGER_32]	reference_equal	F888_7000	C1/v_888.c
+structures	V_EQUALITY [INTEGER_32]	object_equal	F888_7001	C1/v_888.c
+mml	MML_MODEL	is_model_non_equal	F864_7003	C1/mm864.c
+mml	MML_MODEL	model_equals	F864_7004	C1/mm864.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	default_create	F879_7005	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	singleton	F879_7006	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	has	F879_7007	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	is_empty	F879_7008	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	is_constant	F879_7009	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	for_all	F879_7010	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	exists	F879_7011	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	item	F879_7012	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	domain	F879_7013	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	range	F879_7014	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	image	F879_7015	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	sequence_image	F879_7016	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	to_bag	F879_7017	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	count	F879_7018	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	is_model_equal	F879_7019	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	updated	F879_7020	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	removed	F879_7021	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	restricted	F879_7022	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	override	F879_7023	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	inverse	F879_7024	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	keys	F879_7025	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	values	F879_7026	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	make_from_arrays	F879_7027	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	meq_key	F879_7028	C1/mm879.c
+mml	MML_MAP [INTEGER_32, INTEGER_32]	meq_value	F879_7029	C1/mm879.c
+mml	MML_MAP [INTEGER_32, G#2]	default_create	F897_7005	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	singleton	F897_7006	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	has	F897_7007	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	is_empty	F897_7008	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	is_constant	F897_7009	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	for_all	F897_7010	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	exists	F897_7011	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	item	F897_7012	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	domain	F897_7013	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	range	F897_7014	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	image	F897_7015	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	sequence_image	F897_7016	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	to_bag	F897_7017	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	count	F897_7018	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	is_model_equal	F897_7019	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	updated	F897_7020	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	removed	F897_7021	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	restricted	F897_7022	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	override	F897_7023	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	inverse	F897_7024	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	keys	F897_7025	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	values	F897_7026	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	make_from_arrays	F897_7027	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	meq_key	F897_7028	C2/mm897.c
+mml	MML_MAP [INTEGER_32, G#2]	meq_value	F897_7029	C2/mm897.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	default_create	F872_7030	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	singleton	F872_7031	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	has	F872_7032	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	is_empty	F872_7033	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	domain	F872_7034	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	range	F872_7035	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	image_of	F872_7036	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	image	F872_7037	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	count	F872_7038	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	is_model_equal	F872_7039	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	extended	F872_7040	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	removed	F872_7041	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	restricted	F872_7042	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	inverse	F872_7043	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	union	F872_7044	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	intersection	F872_7045	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	difference	F872_7046	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	sym_difference	F872_7047	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	lefts	F872_7048	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	rights	F872_7049	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	make_from_arrays	F872_7050	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	meq_left	F872_7051	C1/mm872.c
+mml	MML_RELATION [INTEGER_32, INTEGER_32]	meq_right	F872_7052	C1/mm872.c
+mml	MML_RELATION [G#1, INTEGER_32]	default_create	F895_7030	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	singleton	F895_7031	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	has	F895_7032	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	is_empty	F895_7033	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	domain	F895_7034	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	range	F895_7035	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	image_of	F895_7036	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	image	F895_7037	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	count	F895_7038	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	is_model_equal	F895_7039	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	extended	F895_7040	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	removed	F895_7041	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	restricted	F895_7042	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	inverse	F895_7043	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	union	F895_7044	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	intersection	F895_7045	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	difference	F895_7046	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	sym_difference	F895_7047	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	lefts	F895_7048	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	rights	F895_7049	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	make_from_arrays	F895_7050	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	meq_left	F895_7051	C2/mm895.c
+mml	MML_RELATION [G#1, INTEGER_32]	meq_right	F895_7052	C2/mm895.c
+mml	MML_RELATION [INTEGER_32, G#2]	default_create	F896_7030	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	singleton	F896_7031	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	has	F896_7032	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	is_empty	F896_7033	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	domain	F896_7034	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	range	F896_7035	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	image_of	F896_7036	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	image	F896_7037	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	count	F896_7038	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	is_model_equal	F896_7039	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	extended	F896_7040	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	removed	F896_7041	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	restricted	F896_7042	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	inverse	F896_7043	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	union	F896_7044	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	intersection	F896_7045	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	difference	F896_7046	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	sym_difference	F896_7047	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	lefts	F896_7048	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	rights	F896_7049	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	make_from_arrays	F896_7050	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	meq_left	F896_7051	C2/mm896.c
+mml	MML_RELATION [INTEGER_32, G#2]	meq_right	F896_7052	C2/mm896.c
+mml	MML_BAG [INTEGER_32]	reference_equal	F873_7077	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	object_equal	F873_7078	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	default_create	F873_7053	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	singleton	F873_7054	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	multiple	F873_7055	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	has	F873_7056	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	is_empty	F873_7057	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	is_constant	F873_7058	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	domain	F873_7059	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	occurrences	F873_7060	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	count	F873_7061	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	is_model_equal	F873_7062	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	extended	F873_7063	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	extended_multiple	F873_7064	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	removed	F873_7065	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	removed_multiple	F873_7066	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	removed_all	F873_7067	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	restricted	F873_7068	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	union	F873_7069	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	difference	F873_7070	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	keys	F873_7071	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	values	F873_7072	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	make_from_arrays	F873_7073	C1/mm873.c
+mml	MML_BAG [INTEGER_32]	meq	F873_7074	C1/mm873.c
+mml	MML_BAG [G#1]	reference_equal	F898_7077	C2/mm898.c
+mml	MML_BAG [G#1]	object_equal	F898_7078	C2/mm898.c
+mml	MML_BAG [G#1]	default_create	F898_7053	C2/mm898.c
+mml	MML_BAG [G#1]	singleton	F898_7054	C2/mm898.c
+mml	MML_BAG [G#1]	multiple	F898_7055	C2/mm898.c
+mml	MML_BAG [G#1]	has	F898_7056	C2/mm898.c
+mml	MML_BAG [G#1]	is_empty	F898_7057	C2/mm898.c
+mml	MML_BAG [G#1]	is_constant	F898_7058	C2/mm898.c
+mml	MML_BAG [G#1]	domain	F898_7059	C2/mm898.c
+mml	MML_BAG [G#1]	occurrences	F898_7060	C2/mm898.c
+mml	MML_BAG [G#1]	count	F898_7061	C2/mm898.c
+mml	MML_BAG [G#1]	is_model_equal	F898_7062	C2/mm898.c
+mml	MML_BAG [G#1]	extended	F898_7063	C2/mm898.c
+mml	MML_BAG [G#1]	extended_multiple	F898_7064	C2/mm898.c
+mml	MML_BAG [G#1]	removed	F898_7065	C2/mm898.c
+mml	MML_BAG [G#1]	removed_multiple	F898_7066	C2/mm898.c
+mml	MML_BAG [G#1]	removed_all	F898_7067	C2/mm898.c
+mml	MML_BAG [G#1]	restricted	F898_7068	C2/mm898.c
+mml	MML_BAG [G#1]	union	F898_7069	C2/mm898.c
+mml	MML_BAG [G#1]	difference	F898_7070	C2/mm898.c
+mml	MML_BAG [G#1]	keys	F898_7071	C2/mm898.c
+mml	MML_BAG [G#1]	values	F898_7072	C2/mm898.c
+mml	MML_BAG [G#1]	make_from_arrays	F898_7073	C2/mm898.c
+mml	MML_BAG [G#1]	meq	F898_7074	C2/mm898.c
+mml	MML_SEQUENCE [INTEGER_32]	default_create	F871_7079	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	singleton	F871_7080	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	has	F871_7081	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	is_empty	F871_7082	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	is_constant	F871_7083	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	for_all	F871_7084	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	exists	F871_7085	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	item	F871_7086	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	domain	F871_7087	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	range	F871_7088	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	to_bag	F871_7089	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	count	F871_7090	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	occurrences	F871_7091	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	is_model_equal	F871_7092	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	is_prefix_of	F871_7093	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	first	F871_7094	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	last	F871_7095	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	but_first	F871_7096	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	but_last	F871_7097	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	front	F871_7098	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	tail	F871_7099	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	interval	F871_7100	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	removed_at	F871_7101	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	restricted	F871_7102	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	removed	F871_7103	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	extended	F871_7104	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	extended_at	F871_7105	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	prepended	F871_7106	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	concatenation	F871_7107	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	replaced_at	F871_7108	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	inverse	F871_7109	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	array	F871_7110	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	make_from_array	F871_7111	C1/mm871.c
+mml	MML_SEQUENCE [INTEGER_32]	meq	F871_7112	C1/mm871.c
+mml	MML_SEQUENCE [G#1]	default_create	F894_7079	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	singleton	F894_7080	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	has	F894_7081	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	is_empty	F894_7082	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	is_constant	F894_7083	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	for_all	F894_7084	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	exists	F894_7085	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	item	F894_7086	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	domain	F894_7087	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	range	F894_7088	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	to_bag	F894_7089	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	count	F894_7090	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	occurrences	F894_7091	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	is_model_equal	F894_7092	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	is_prefix_of	F894_7093	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	first	F894_7094	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	last	F894_7095	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	but_first	F894_7096	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	but_last	F894_7097	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	front	F894_7098	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	tail	F894_7099	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	interval	F894_7100	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	removed_at	F894_7101	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	restricted	F894_7102	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	removed	F894_7103	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	extended	F894_7104	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	extended_at	F894_7105	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	prepended	F894_7106	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	concatenation	F894_7107	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	replaced_at	F894_7108	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	inverse	F894_7109	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	array	F894_7110	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	make_from_array	F894_7111	C2/mm894.c
+mml	MML_SEQUENCE [G#1]	meq	F894_7112	C2/mm894.c
+mml	MML_SET [INTEGER_32]	default_create	F867_7113	C1/mm867.c
+mml	MML_SET [INTEGER_32]	singleton	F867_7114	C1/mm867.c
+mml	MML_SET [INTEGER_32]	has	F867_7115	C1/mm867.c
+mml	MML_SET [INTEGER_32]	is_empty	F867_7116	C1/mm867.c
+mml	MML_SET [INTEGER_32]	for_all	F867_7117	C1/mm867.c
+mml	MML_SET [INTEGER_32]	exists	F867_7118	C1/mm867.c
+mml	MML_SET [INTEGER_32]	any_item	F867_7119	C1/mm867.c
+mml	MML_SET [INTEGER_32]	extremum	F867_7120	C1/mm867.c
+mml	MML_SET [INTEGER_32]	filtered	F867_7121	C1/mm867.c
+mml	MML_SET [INTEGER_32]	count	F867_7122	C1/mm867.c
+mml	MML_SET [INTEGER_32]	is_model_equal	F867_7123	C1/mm867.c
+mml	MML_SET [INTEGER_32]	is_subset_of	F867_7124	C1/mm867.c
+mml	MML_SET [INTEGER_32]	is_superset_of	F867_7125	C1/mm867.c
+mml	MML_SET [INTEGER_32]	disjoint	F867_7126	C1/mm867.c
+mml	MML_SET [INTEGER_32]	extended	F867_7127	C1/mm867.c
+mml	MML_SET [INTEGER_32]	removed	F867_7128	C1/mm867.c
+mml	MML_SET [INTEGER_32]	union	F867_7129	C1/mm867.c
+mml	MML_SET [INTEGER_32]	intersection	F867_7130	C1/mm867.c
+mml	MML_SET [INTEGER_32]	difference	F867_7131	C1/mm867.c
+mml	MML_SET [INTEGER_32]	sym_difference	F867_7132	C1/mm867.c
+mml	MML_SET [INTEGER_32]	mapped	F867_7133	C1/mm867.c
+mml	MML_SET [INTEGER_32]	array	F867_7134	C1/mm867.c
+mml	MML_SET [INTEGER_32]	make_from_array	F867_7135	C1/mm867.c
+mml	MML_SET [INTEGER_32]	meq	F867_7136	C1/mm867.c
+mml	MML_SET [INTEGER_32]	inline-agent#1 of difference	F867_7345	C1/mm867.c
+mml	MML_SET [INTEGER_32]	inline-agent#1 of intersection	F867_7346	C1/mm867.c
+mml	MML_SET [INTEGER_32]	inline-agent#1 of union	F867_7347	C1/mm867.c
+mml	MML_SET [INTEGER_32]	inline-agent#1 of extremum	F867_7348	C1/mm867.c
+mml	MML_SET [G#1]	default_create	F890_7113	C1/mm890.c
+mml	MML_SET [G#1]	singleton	F890_7114	C1/mm890.c
+mml	MML_SET [G#1]	has	F890_7115	C1/mm890.c
+mml	MML_SET [G#1]	is_empty	F890_7116	C1/mm890.c
+mml	MML_SET [G#1]	for_all	F890_7117	C1/mm890.c
+mml	MML_SET [G#1]	exists	F890_7118	C1/mm890.c
+mml	MML_SET [G#1]	any_item	F890_7119	C1/mm890.c
+mml	MML_SET [G#1]	extremum	F890_7120	C1/mm890.c
+mml	MML_SET [G#1]	filtered	F890_7121	C1/mm890.c
+mml	MML_SET [G#1]	count	F890_7122	C1/mm890.c
+mml	MML_SET [G#1]	is_model_equal	F890_7123	C1/mm890.c
+mml	MML_SET [G#1]	is_subset_of	F890_7124	C1/mm890.c
+mml	MML_SET [G#1]	is_superset_of	F890_7125	C1/mm890.c
+mml	MML_SET [G#1]	disjoint	F890_7126	C1/mm890.c
+mml	MML_SET [G#1]	extended	F890_7127	C1/mm890.c
+mml	MML_SET [G#1]	removed	F890_7128	C1/mm890.c
+mml	MML_SET [G#1]	union	F890_7129	C1/mm890.c
+mml	MML_SET [G#1]	intersection	F890_7130	C1/mm890.c
+mml	MML_SET [G#1]	difference	F890_7131	C1/mm890.c
+mml	MML_SET [G#1]	sym_difference	F890_7132	C1/mm890.c
+mml	MML_SET [G#1]	mapped	F890_7133	C1/mm890.c
+mml	MML_SET [G#1]	array	F890_7134	C1/mm890.c
+mml	MML_SET [G#1]	make_from_array	F890_7135	C1/mm890.c
+mml	MML_SET [G#1]	meq	F890_7136	C1/mm890.c
+mml	MML_SET [G#1]	inline-agent#1 of difference	F890_7345	C1/mm890.c
+mml	MML_SET [G#1]	inline-agent#1 of intersection	F890_7346	C1/mm890.c
+mml	MML_SET [G#1]	inline-agent#1 of union	F890_7347	C1/mm890.c
+mml	MML_SET [G#1]	inline-agent#1 of extremum	F890_7348	C1/mm890.c
+mml	MML_INTERVAL	from_range	F865_7137	C1/mm865.c
+mml	MML_INTERVAL	from_tuple	F865_7138	C1/mm865.c
+mml	MML_INTERVAL	lower	F865_7139	C1/mm865.c
+mml	MML_INTERVAL	upper	F865_7140	C1/mm865.c
+mml	MML_INTERVAL	has	F865_7141	C1/mm865.c
+mml	MML_INTERVAL	is_model_equal	F865_7142	C1/mm865.c
+mml	MML_INTERVAL	is_subset_of	F865_7143	C1/mm865.c
+mml	MML_INTERVAL	disjoint	F865_7144	C1/mm865.c
+mml	MML_INTERVAL	interval_union	F865_7145	C1/mm865.c
+structures	V_ITERATOR [INTEGER_32]	count_left	F870_7148	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	valid_index	F870_7149	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	off	F870_7152	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	is_equal	F870_7155	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	go_to	F870_7160	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	search_forth	F870_7163	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	satisfy_forth	F870_7164	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	search_back	F870_7165	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	satisfy_back	F870_7166	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	inline-agent#1 of satisfy_back	F870_7350	C1/v_870.c
+structures	V_ITERATOR [INTEGER_32]	inline-agent#1 of satisfy_forth	F870_7351	C1/v_870.c
+structures	V_ITERATOR [G#1]	count_left	F893_7148	C2/v_893.c
+structures	V_ITERATOR [G#1]	valid_index	F893_7149	C2/v_893.c
+structures	V_ITERATOR [G#1]	off	F893_7152	C2/v_893.c
+structures	V_ITERATOR [G#1]	is_equal	F893_7155	C2/v_893.c
+structures	V_ITERATOR [G#1]	go_to	F893_7160	C2/v_893.c
+structures	V_ITERATOR [G#1]	search_forth	F893_7163	C2/v_893.c
+structures	V_ITERATOR [G#1]	satisfy_forth	F893_7164	C2/v_893.c
+structures	V_ITERATOR [G#1]	search_back	F893_7165	C2/v_893.c
+structures	V_ITERATOR [G#1]	satisfy_back	F893_7166	C2/v_893.c
+structures	V_ITERATOR [G#1]	inline-agent#1 of satisfy_back	F893_7350	C2/v_893.c
+structures	V_ITERATOR [G#1]	inline-agent#1 of satisfy_forth	F893_7351	C2/v_893.c
+structures	V_MAP_ITERATOR [INTEGER_32, INTEGER_32]	inline-agent#1 of _invariant	F877_7354	C1/v_877.c
+structures	V_MAP_ITERATOR [INTEGER_32, G#2]	inline-agent#1 of _invariant	F902_7354	C2/v_902.c
+structures	V_SEQUENCE_ITERATOR [INTEGER_32]	target_index	F876_7172	C1/v_876.c
+structures	V_SEQUENCE_ITERATOR [INTEGER_32]	search_target_index	F876_7174	C1/v_876.c
+structures	V_SEQUENCE_ITERATOR [INTEGER_32]	target_index_sequence	F876_7175	C1/v_876.c
+structures	V_SEQUENCE_ITERATOR [INTEGER_32]	inline-agent#1 of _invariant	F876_7356	C1/v_876.c
+structures	V_SEQUENCE_ITERATOR [G#1]	target_index	F901_7172	C2/v_901.c
+structures	V_SEQUENCE_ITERATOR [G#1]	search_target_index	F901_7174	C2/v_901.c
+structures	V_SEQUENCE_ITERATOR [G#1]	target_index_sequence	F901_7175	C2/v_901.c
+structures	V_SEQUENCE_ITERATOR [G#1]	inline-agent#1 of _invariant	F901_7356	C2/v_901.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	item	F875_7177	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	index	F875_7178	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	before	F875_7179	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	after	F875_7180	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	is_first	F875_7181	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	is_last	F875_7182	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	start	F875_7183	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	finish	F875_7184	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	forth	F875_7185	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	back	F875_7186	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	go_to	F875_7187	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	go_before	F875_7188	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	go_after	F875_7189	C1/v_875.c
+structures	V_INDEX_ITERATOR [INTEGER_32]	sequence	F875_7190	C1/v_875.c
+structures	V_INDEX_ITERATOR [G#1]	item	F900_7177	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	index	F900_7178	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	before	F900_7179	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	after	F900_7180	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	is_first	F900_7181	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	is_last	F900_7182	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	start	F900_7183	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	finish	F900_7184	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	forth	F900_7185	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	back	F900_7186	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	go_to	F900_7187	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	go_before	F900_7188	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	go_after	F900_7189	C2/v_900.c
+structures	V_INDEX_ITERATOR [G#1]	sequence	F900_7190	C2/v_900.c
+structures	V_IO_ITERATOR [INTEGER_32]	output	F882_7192	C1/v_882.c
+structures	V_IO_ITERATOR [G#1]	output	F906_7192	C2/v_906.c
+structures	V_ARRAY_ITERATOR [INTEGER_32]	make	F874_7194	C1/v_874.c
+structures	V_ARRAY_ITERATOR [INTEGER_32]	copy	F874_7195	C1/v_874.c
+structures	V_ARRAY_ITERATOR [INTEGER_32]	target	F874_7196	C1/v_874.c
+structures	V_ARRAY_ITERATOR [INTEGER_32]	put	F874_7197	C1/v_874.c
+structures	V_ARRAY_ITERATOR [G#1]	make	F899_7194	C2/v_899.c
+structures	V_ARRAY_ITERATOR [G#1]	copy	F899_7195	C2/v_899.c
+structures	V_ARRAY_ITERATOR [G#1]	target	F899_7196	C2/v_899.c
+structures	V_ARRAY_ITERATOR [G#1]	put	F899_7197	C2/v_899.c
+structures	V_LIST_ITERATOR [G#1]	sequence	F911_7206	C2/v_911.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	make	F913_7207	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	copy	F913_7208	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	target	F913_7209	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	put	F913_7210	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	extend_left	F913_7211	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	extend_right	F913_7212	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	insert_left	F913_7213	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	insert_right	F913_7214	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	remove	F913_7215	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	remove_left	F913_7216	C2/v_913.c
+structures	V_ARRAYED_LIST_ITERATOR [G#1]	remove_right	F913_7217	C2/v_913.c
+structures	V_CONTAINER [INTEGER_32]	is_empty	F880_7219	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	has	F880_7220	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	occurrences	F880_7221	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	count_satisfying	F880_7222	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	exists	F880_7223	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	for_all	F880_7224	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	out	F880_7226	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	bag	F880_7227	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	inline-agent#1 of for_all	F880_7358	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	inline-agent#1 of exists	F880_7359	C1/v_880.c
+structures	V_CONTAINER [INTEGER_32]	inline-agent#1 of count_satisfying	F880_7360	C1/v_880.c
+structures	V_CONTAINER [G#1]	is_empty	F903_7219	C2/v_903.c
+structures	V_CONTAINER [G#1]	has	F903_7220	C2/v_903.c
+structures	V_CONTAINER [G#1]	occurrences	F903_7221	C2/v_903.c
+structures	V_CONTAINER [G#1]	count_satisfying	F903_7222	C2/v_903.c
+structures	V_CONTAINER [G#1]	exists	F903_7223	C2/v_903.c
+structures	V_CONTAINER [G#1]	for_all	F903_7224	C2/v_903.c
+structures	V_CONTAINER [G#1]	out	F903_7226	C2/v_903.c
+structures	V_CONTAINER [G#1]	bag	F903_7227	C2/v_903.c
+structures	V_CONTAINER [G#1]	inline-agent#1 of for_all	F903_7358	C2/v_903.c
+structures	V_CONTAINER [G#1]	inline-agent#1 of exists	F903_7359	C2/v_903.c
+structures	V_CONTAINER [G#1]	inline-agent#1 of count_satisfying	F903_7360	C2/v_903.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	exists_key	F878_7231	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	for_all_keys	F878_7232	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	out	F878_7235	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	map	F878_7236	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	equivalent	F878_7237	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	key	F878_7238	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	inline-agent#1 of for_all_keys	F878_7361	C1/v_878.c
+structures	V_MAP [INTEGER_32, INTEGER_32]	inline-agent#1 of exists_key	F878_7362	C1/v_878.c
+structures	V_MAP [INTEGER_32, G#2]	exists_key	F904_7231	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	for_all_keys	F904_7232	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	out	F904_7235	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	map	F904_7236	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	equivalent	F904_7237	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	key	F904_7238	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	inline-agent#1 of for_all_keys	F904_7361	C2/v_904.c
+structures	V_MAP [INTEGER_32, G#2]	inline-agent#1 of exists_key	F904_7362	C2/v_904.c
+structures	V_SEQUENCE [INTEGER_32]	reference_equal	F869_7261	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	object_equal	F869_7262	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	less	F869_7263	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	less_equal	F869_7264	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	greater	F869_7265	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	greater_equal	F869_7266	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	first	F869_7239	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	last	F869_7240	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	count	F869_7243	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	has_index	F869_7244	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	index_of	F869_7245	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	index_of_from	F869_7246	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	index_satisfying	F869_7247	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	index_satisfying_from	F869_7248	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	key_equivalence	F869_7249	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	new_cursor	F869_7250	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	at_last	F869_7251	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	out	F869_7253	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	key	F869_7254	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	inline-agent#1 of index_satisfying_from	F869_7364	C1/v_869.c
+structures	V_SEQUENCE [INTEGER_32]	inline-agent#1 of index_satisfying	F869_7365	C1/v_869.c
+structures	V_SEQUENCE [G#1]	reference_equal	F892_7261	C1/v_892.c
+structures	V_SEQUENCE [G#1]	object_equal	F892_7262	C1/v_892.c
+structures	V_SEQUENCE [G#1]	less	F892_7263	C1/v_892.c
+structures	V_SEQUENCE [G#1]	less_equal	F892_7264	C1/v_892.c
+structures	V_SEQUENCE [G#1]	greater	F892_7265	C1/v_892.c
+structures	V_SEQUENCE [G#1]	greater_equal	F892_7266	C1/v_892.c
+structures	V_SEQUENCE [G#1]	first	F892_7239	C1/v_892.c
+structures	V_SEQUENCE [G#1]	last	F892_7240	C1/v_892.c
+structures	V_SEQUENCE [G#1]	count	F892_7243	C1/v_892.c
+structures	V_SEQUENCE [G#1]	has_index	F892_7244	C1/v_892.c
+structures	V_SEQUENCE [G#1]	index_of	F892_7245	C1/v_892.c
+structures	V_SEQUENCE [G#1]	index_of_from	F892_7246	C1/v_892.c
+structures	V_SEQUENCE [G#1]	index_satisfying	F892_7247	C1/v_892.c
+structures	V_SEQUENCE [G#1]	index_satisfying_from	F892_7248	C1/v_892.c
+structures	V_SEQUENCE [G#1]	key_equivalence	F892_7249	C1/v_892.c
+structures	V_SEQUENCE [G#1]	new_cursor	F892_7250	C1/v_892.c
+structures	V_SEQUENCE [G#1]	at_last	F892_7251	C1/v_892.c
+structures	V_SEQUENCE [G#1]	out	F892_7253	C1/v_892.c
+structures	V_SEQUENCE [G#1]	key	F892_7254	C1/v_892.c
+structures	V_SEQUENCE [G#1]	inline-agent#1 of index_satisfying_from	F892_7364	C1/v_892.c
+structures	V_SEQUENCE [G#1]	inline-agent#1 of index_satisfying	F892_7365	C1/v_892.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	put	F881_7269	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	swap	F881_7270	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	fill	F881_7271	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	clear	F881_7272	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	copy_range	F881_7273	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	sort	F881_7274	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	reverse	F881_7275	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	quick_sort	F881_7276	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	inline-agent#1 of reverse	F881_7367	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	inline-agent#1 of sort	F881_7368	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [INTEGER_32]	inline-agent#1 of copy_range	F881_7369	C1/v_881.c
+structures	V_MUTABLE_SEQUENCE [G#1]	put	F905_7269	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	swap	F905_7270	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	fill	F905_7271	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	clear	F905_7272	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	copy_range	F905_7273	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	sort	F905_7274	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	reverse	F905_7275	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	quick_sort	F905_7276	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	inline-agent#1 of reverse	F905_7367	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	inline-agent#1 of sort	F905_7368	C2/v_905.c
+structures	V_MUTABLE_SEQUENCE [G#1]	inline-agent#1 of copy_range	F905_7369	C2/v_905.c
+structures	V_ARRAY [INTEGER_32]	make	F868_7277	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	make_filled	F868_7278	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	copy	F868_7279	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	item	F868_7280	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	subarray	F868_7281	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	lower	F868_7282	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	upper	F868_7283	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	at	F868_7284	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	is_equal	F868_7285	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	put	F868_7286	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	fill	F868_7287	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	clear	F868_7288	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	array_copy_range	F868_7289	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	resize	F868_7290	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	include	F868_7291	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	force	F868_7292	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	wipe_out	F868_7293	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	area	F868_7294	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	inline-agent#1 of array_copy_range	F868_7370	C1/v_868.c
+structures	V_ARRAY [INTEGER_32]	inline-agent#1 of subarray	F868_7371	C1/v_868.c
+structures	V_ARRAY [G#1]	make	F891_7277	C1/v_891.c
+structures	V_ARRAY [G#1]	make_filled	F891_7278	C1/v_891.c
+structures	V_ARRAY [G#1]	copy	F891_7279	C1/v_891.c
+structures	V_ARRAY [G#1]	item	F891_7280	C1/v_891.c
+structures	V_ARRAY [G#1]	subarray	F891_7281	C1/v_891.c
+structures	V_ARRAY [G#1]	lower	F891_7282	C1/v_891.c
+structures	V_ARRAY [G#1]	upper	F891_7283	C1/v_891.c
+structures	V_ARRAY [G#1]	at	F891_7284	C1/v_891.c
+structures	V_ARRAY [G#1]	is_equal	F891_7285	C1/v_891.c
+structures	V_ARRAY [G#1]	put	F891_7286	C1/v_891.c
+structures	V_ARRAY [G#1]	fill	F891_7287	C1/v_891.c
+structures	V_ARRAY [G#1]	clear	F891_7288	C1/v_891.c
+structures	V_ARRAY [G#1]	array_copy_range	F891_7289	C1/v_891.c
+structures	V_ARRAY [G#1]	resize	F891_7290	C1/v_891.c
+structures	V_ARRAY [G#1]	include	F891_7291	C1/v_891.c
+structures	V_ARRAY [G#1]	force	F891_7292	C1/v_891.c
+structures	V_ARRAY [G#1]	wipe_out	F891_7293	C1/v_891.c
+structures	V_ARRAY [G#1]	area	F891_7294	C1/v_891.c
+structures	V_ARRAY [G#1]	inline-agent#1 of array_copy_range	F891_7370	C1/v_891.c
+structures	V_ARRAY [G#1]	inline-agent#1 of subarray	F891_7371	C1/v_891.c
+structures	V_LIST [G#1]	lower	F910_7295	C2/v_910.c
+structures	V_LIST [G#1]	upper	F910_7296	C2/v_910.c
+structures	V_LIST [G#1]	is_equal	F910_7298	C2/v_910.c
+structures	V_LIST [G#1]	append	F910_7302	C2/v_910.c
+structures	V_LIST [G#1]	remove	F910_7308	C2/v_910.c
+structures	V_LIST [G#1]	remove_all	F910_7309	C2/v_910.c
+structures	V_LIST [G#1]	remove_satisfying	F910_7310	C2/v_910.c
+structures	V_LIST [G#1]	remove_all_satisfying	F910_7311	C2/v_910.c
+structures	V_LIST [G#1]	inline-agent#1 of remove_all_satisfying	F910_7373	C2/v_910.c
+structures	V_LIST [G#1]	inline-agent#1 of _invariant	F910_7375	C2/v_910.c
+structures	V_ARRAYED_LIST [G#1]	default_create	F912_7314	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	copy	F912_7315	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	item	F912_7316	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	count	F912_7317	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	at	F912_7318	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	put	F912_7319	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	extend_front	F912_7320	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	extend_back	F912_7321	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	extend_at	F912_7322	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	prepend	F912_7323	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	insert_at	F912_7324	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	remove_front	F912_7325	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	remove_back	F912_7326	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	remove_at	F912_7327	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	wipe_out	F912_7328	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	array	F912_7329	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	first_index	F912_7330	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	capacity	F912_7331	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	default_capacity	F912_7332	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	growth_rate	F912_7333	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	mod_capacity	F912_7334	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	array_index	F912_7335	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	circular_copy	F912_7336	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	reserve	F912_7337	C2/v_912.c
+structures	V_ARRAYED_LIST [G#1]	sequence	F912_7338	C2/v_912.c
+temp	APPLICATION	make	F861_6968	C1/ap861.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	last_result	F866_6074	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	call	F866_6075	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	item	F866_6076	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	apply	F866_6077	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	is_equal	F866_6078	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	copy	F866_6079	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	eval	F866_6080	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	clear_last_result	F866_6081	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	flexible_item	F866_6082	C1/fu866.c
+elks	FUNCTION [G#1, G#2, INTEGER_32]	fast_item	F866_6083	C1/fu866.c

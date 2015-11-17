@@ -1,0 +1,573 @@
+#include "eif_eiffel.h"
+#include "eif_rout_obj.h"
+#include "eaddress.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	/* TRACING_HANDLER per_thread_trace */
+void A32_36 (EIF_REFERENCE Current, EIF_INTEGER_32 arg1, EIF_POINTER arg2, EIF_POINTER arg3, EIF_INTEGER_32 arg4, EIF_BOOLEAN arg5)
+{
+	EIF_TYPED_VALUE u [5];
+	GTCX
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(824, "per_thread_trace", Current))(Current, ((u [0].type = SK_INT32), (u [0].it_i4 = arg1), u [0]), ((u [1].type = SK_POINTER), (u [1].it_p = arg2), u [1]), ((u [2].type = SK_POINTER), (u [2].it_p = arg3), u [2]), ((u [3].type = SK_INT32), (u [3].it_i4 = arg4), u [3]), ((u [4].type = SK_BOOL), (u [4].it_b = arg5), u [4]));
+}
+
+	/* HASH_TABLE [G#1, INTEGER_32] has */
+EIF_TYPED_VALUE _A277_47_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3317, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* HASH_TABLE [INTEGER_32, INTEGER_32] has */
+EIF_TYPED_VALUE _A311_47_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3317, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* HASH_TABLE [G#1, G#2] has */
+EIF_TYPED_VALUE _A315_47_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3317, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* HASH_TABLE [NATURAL_32, POINTER] has */
+EIF_TYPED_VALUE _A609_47_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3317, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* HASH_TABLE [INTEGER_32, G#2] has */
+EIF_TYPED_VALUE _A849_47_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(3317, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* MISMATCH_INFORMATION clear_all */
+void A170_91 (EIF_REFERENCE Current)
+{
+	GTCX
+	(FUNCTION_CAST(void, (EIF_REFERENCE)) RTVF(3348, "clear_all", Current))(Current);
+}
+
+	/* MISMATCH_INFORMATION internal_put */
+void A170_157 (EIF_REFERENCE Current, EIF_REFERENCE arg1, EIF_POINTER arg2)
+{
+	EIF_TYPED_VALUE u [2];
+	GTCX
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(3412, "internal_put", Current))(Current, ((u [0].type = SK_REF), (u [0].it_r = arg1), u [0]), ((u [1].type = SK_POINTER), (u [1].it_p = arg2), u [1]));
+}
+
+	/* MISMATCH_INFORMATION set_string_versions */
+void A170_158 (EIF_REFERENCE Current, EIF_POINTER arg1, EIF_POINTER arg2)
+{
+	EIF_TYPED_VALUE u [2];
+	GTCX
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(3413, "set_string_versions", Current))(Current, ((u [0].type = SK_POINTER), (u [0].it_p = arg1), u [0]), ((u [1].type = SK_POINTER), (u [1].it_p = arg2), u [1]));
+}
+
+	/* RT_DBG_CALL_RECORD inline-agent#1 of record_fields */
+void _A235_159_2 (void(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	(FUNCTION_CAST(void, (EIF_REFERENCE, EIF_TYPED_VALUE)) F235_6965)(closed [1].it_r, open [1]);
+}
+
+	/* MML_MAP [INTEGER_32, INTEGER_32] meq_key */
+EIF_TYPED_VALUE _A879_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4959, "meq_key", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_MAP [INTEGER_32, G#2] meq_key */
+EIF_TYPED_VALUE _A897_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4959, "meq_key", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_MAP [INTEGER_32, INTEGER_32] meq_value */
+EIF_TYPED_VALUE _A879_57_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4960, "meq_value", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_MAP [INTEGER_32, G#2] meq_value */
+EIF_TYPED_VALUE _A897_57_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4960, "meq_value", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_RELATION [INTEGER_32, INTEGER_32] meq_left */
+EIF_TYPED_VALUE _A872_54_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4982, "meq_left", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_RELATION [G#1, INTEGER_32] meq_left */
+EIF_TYPED_VALUE _A895_54_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4982, "meq_left", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_RELATION [INTEGER_32, G#2] meq_left */
+EIF_TYPED_VALUE _A896_54_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4982, "meq_left", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_BAG [INTEGER_32] meq */
+EIF_TYPED_VALUE _A873_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5005, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_BAG [G#1] meq */
+EIF_TYPED_VALUE _A898_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5005, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_BAG [INTEGER_32] reference_equal */
+EIF_TYPED_VALUE _A873_33_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4932, "reference_equal", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_BAG [G#1] reference_equal */
+EIF_TYPED_VALUE _A898_33_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4932, "reference_equal", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_SEQUENCE [INTEGER_32] meq */
+EIF_TYPED_VALUE _A871_66_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5038, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_SEQUENCE [G#1] meq */
+EIF_TYPED_VALUE _A894_66_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5038, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_SET [INTEGER_32] inline-agent#1 of difference */
+EIF_TYPED_VALUE _A867_58_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F867_7345)(closed [1].it_r, open [1], closed [2], closed [3]);
+}
+
+	/* MML_SET [G#1] inline-agent#1 of difference */
+EIF_TYPED_VALUE _A890_58_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F890_7345)(closed [1].it_r, open [1], closed [2], closed [3]);
+}
+
+	/* MML_SET [INTEGER_32] inline-agent#1 of intersection */
+EIF_TYPED_VALUE _A867_59_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F867_7346)(closed [1].it_r, open [1], closed [2], closed [3]);
+}
+
+	/* MML_SET [G#1] inline-agent#1 of intersection */
+EIF_TYPED_VALUE _A890_59_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F890_7346)(closed [1].it_r, open [1], closed [2], closed [3]);
+}
+
+	/* MML_SET [INTEGER_32] inline-agent#1 of union */
+EIF_TYPED_VALUE _A867_60_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F867_7347)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* MML_SET [G#1] inline-agent#1 of union */
+EIF_TYPED_VALUE _A890_60_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F890_7347)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* MML_SET [INTEGER_32] meq */
+EIF_TYPED_VALUE _A867_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5061, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_SET [G#1] meq */
+EIF_TYPED_VALUE _A890_56_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5061, "meq", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* MML_SET [INTEGER_32] has */
+EIF_TYPED_VALUE _A867_35_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(5041, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* MML_SET [G#1] has */
+EIF_TYPED_VALUE _A890_35_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE)) RTVF(5041, "has", closed [1].it_r))(closed [1].it_r, open [1]);
+}
+
+	/* MML_SET [INTEGER_32] inline-agent#1 of extremum */
+EIF_TYPED_VALUE _A867_61_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F867_7348)(closed [1].it_r, closed [2], open [1], closed [3]);
+}
+
+	/* MML_SET [G#1] inline-agent#1 of extremum */
+EIF_TYPED_VALUE _A890_61_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F890_7348)(closed [1].it_r, closed [2], open [1], closed [3]);
+}
+
+	/* V_ITERATOR [INTEGER_32] inline-agent#1 of satisfy_back */
+EIF_TYPED_VALUE _A870_57_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F870_7350)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_ITERATOR [G#1] inline-agent#1 of satisfy_back */
+EIF_TYPED_VALUE _A893_57_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F893_7350)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_ITERATOR [INTEGER_32] inline-agent#1 of satisfy_forth */
+EIF_TYPED_VALUE _A870_58_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F870_7351)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_ITERATOR [G#1] inline-agent#1 of satisfy_forth */
+EIF_TYPED_VALUE _A893_58_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F893_7351)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MAP_ITERATOR [INTEGER_32, INTEGER_32] inline-agent#1 of _invariant */
+EIF_TYPED_VALUE _A877_62_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F877_7354)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_MAP_ITERATOR [INTEGER_32, G#2] inline-agent#1 of _invariant */
+EIF_TYPED_VALUE _A902_62_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F902_7354)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE_ITERATOR [INTEGER_32] inline-agent#1 of _invariant */
+EIF_TYPED_VALUE _A876_62_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F876_7356)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE_ITERATOR [G#1] inline-agent#1 of _invariant */
+EIF_TYPED_VALUE _A901_62_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F901_7356)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_CONTAINER [INTEGER_32] inline-agent#1 of for_all */
+EIF_TYPED_VALUE _A880_42_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F880_7358)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_CONTAINER [G#1] inline-agent#1 of for_all */
+EIF_TYPED_VALUE _A903_42_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F903_7358)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_CONTAINER [INTEGER_32] inline-agent#1 of exists */
+EIF_TYPED_VALUE _A880_43_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F880_7359)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_CONTAINER [G#1] inline-agent#1 of exists */
+EIF_TYPED_VALUE _A903_43_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F903_7359)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_CONTAINER [INTEGER_32] inline-agent#1 of count_satisfying */
+EIF_TYPED_VALUE _A880_44_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F880_7360)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_CONTAINER [G#1] inline-agent#1 of count_satisfying */
+EIF_TYPED_VALUE _A903_44_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F903_7360)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MAP [INTEGER_32, INTEGER_32] equivalent */
+EIF_TYPED_VALUE _A878_47_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5117, "equivalent", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* V_MAP [INTEGER_32, G#2] equivalent */
+EIF_TYPED_VALUE _A904_47_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(5117, "equivalent", closed [1].it_r))(closed [1].it_r, closed [2], open [1]);
+}
+
+	/* V_MAP [INTEGER_32, INTEGER_32] inline-agent#1 of for_all_keys */
+EIF_TYPED_VALUE _A878_52_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F878_7361)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MAP [INTEGER_32, G#2] inline-agent#1 of for_all_keys */
+EIF_TYPED_VALUE _A904_52_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F904_7361)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MAP [INTEGER_32, INTEGER_32] inline-agent#1 of exists_key */
+EIF_TYPED_VALUE _A878_53_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F878_7362)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MAP [INTEGER_32, G#2] inline-agent#1 of exists_key */
+EIF_TYPED_VALUE _A904_53_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F904_7362)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_SEQUENCE [INTEGER_32] reference_equal */
+EIF_TYPED_VALUE _A869_40_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4932, "reference_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE [G#1] reference_equal */
+EIF_TYPED_VALUE _A892_40_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4932, "reference_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE [INTEGER_32] inline-agent#1 of index_satisfying_from */
+EIF_TYPED_VALUE _A869_69_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F869_7364)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_SEQUENCE [G#1] inline-agent#1 of index_satisfying_from */
+EIF_TYPED_VALUE _A892_69_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F892_7364)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_SEQUENCE [INTEGER_32] less_equal */
+EIF_TYPED_VALUE _A869_43_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4906, "less_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE [G#1] less_equal */
+EIF_TYPED_VALUE _A892_43_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4906, "less_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE [INTEGER_32] inline-agent#1 of index_satisfying */
+EIF_TYPED_VALUE _A869_70_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F869_7365)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_SEQUENCE [G#1] inline-agent#1 of index_satisfying */
+EIF_TYPED_VALUE _A892_70_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F892_7365)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_SEQUENCE [INTEGER_32] greater_equal */
+EIF_TYPED_VALUE _A869_45_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4908, "greater_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_SEQUENCE [G#1] greater_equal */
+EIF_TYPED_VALUE _A892_45_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4908, "greater_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_MUTABLE_SEQUENCE [INTEGER_32] inline-agent#1 of reverse */
+EIF_TYPED_VALUE _A881_77_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F881_7367)(closed [1].it_r, open [1], open [2], closed [2]);
+}
+
+	/* V_MUTABLE_SEQUENCE [G#1] inline-agent#1 of reverse */
+EIF_TYPED_VALUE _A905_77_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F905_7367)(closed [1].it_r, open [1], open [2], closed [2]);
+}
+
+	/* V_MUTABLE_SEQUENCE [INTEGER_32] inline-agent#1 of sort */
+EIF_TYPED_VALUE _A881_78_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F881_7368)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MUTABLE_SEQUENCE [G#1] inline-agent#1 of sort */
+EIF_TYPED_VALUE _A905_78_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F905_7368)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_MUTABLE_SEQUENCE [INTEGER_32] inline-agent#1 of copy_range */
+EIF_TYPED_VALUE _A881_79_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F881_7369)(closed [1].it_r, open [1], closed [2], closed [3], closed [4]);
+}
+
+	/* V_MUTABLE_SEQUENCE [G#1] inline-agent#1 of copy_range */
+EIF_TYPED_VALUE _A905_79_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F905_7369)(closed [1].it_r, open [1], closed [2], closed [3], closed [4]);
+}
+
+	/* V_ARRAY [INTEGER_32] inline-agent#1 of array_copy_range */
+EIF_TYPED_VALUE _A868_90_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F868_7370)(closed [1].it_r, open [1], closed [2], closed [3], closed [4]);
+}
+
+	/* V_ARRAY [G#1] inline-agent#1 of array_copy_range */
+EIF_TYPED_VALUE _A891_90_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F891_7370)(closed [1].it_r, open [1], closed [2], closed [3], closed [4]);
+}
+
+	/* V_ARRAY [INTEGER_32] inline-agent#1 of subarray */
+EIF_TYPED_VALUE _A868_91_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F868_7371)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_ARRAY [G#1] inline-agent#1 of subarray */
+EIF_TYPED_VALUE _A891_91_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F891_7371)(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_LIST [G#1] inline-agent#1 of remove_all_satisfying */
+EIF_TYPED_VALUE _A910_92_2 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F910_7373)(closed [1].it_r, open [1], closed [2]);
+}
+
+	/* V_LIST [G#1] less_equal */
+EIF_TYPED_VALUE _A910_42_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) RTVF(4906, "less_equal", closed [1].it_r))(closed [1].it_r, open [1], open [2]);
+}
+
+	/* V_LIST [G#1] inline-agent#1 of _invariant */
+EIF_TYPED_VALUE _A910_94_2_3 (EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE) , EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE, EIF_TYPED_VALUE, EIF_TYPED_VALUE)) F910_7375)(closed [1].it_r, open [1], open [2]);
+}
+
+
+static fnptr feif_address_table[] = {
+(fnptr)0,
+(fnptr)A32_36,
+(fnptr)A170_91,
+(fnptr)A170_157,
+(fnptr)A170_158,
+};
+
+fnptr *egc_address_table_init = feif_address_table;
+
+
+
+#ifdef __cplusplus
+}
+#endif
